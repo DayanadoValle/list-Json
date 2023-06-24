@@ -1,0 +1,43 @@
+
+
+*{
+    margin:0;
+    bottom:0;
+    box-sizing: border-box;
+    
+  }
+
+.menu-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.item{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+
+}
+
+
+.menu-nav li a{
+    padding: 30px;
+    color: #fff;
+    opacity: .8;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+
+
+}
+.menu-nav li a:hover{
+    color: yellow ;
+    font-size: 1.21rem;
+    opacity: 0.8;
+    
+}
+
+
